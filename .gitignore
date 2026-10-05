@@ -1,0 +1,21 @@
+Operating system files
+
+1.DS_Store
+2.Thumbs.db
+3.desktop.ini
+
+Editor files
+
+1.vscode
+2.idea
+
+Temporary files
+
+.tmp
+.log
+.bak
+~
+
+Oracle/SQL Developer temporary files
+
+.autosave
