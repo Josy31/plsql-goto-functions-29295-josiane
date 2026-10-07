@@ -4,13 +4,11 @@ DECLARE
     v_employee_name employees.employee_name%TYPE;
     v_salary        employees.monthly_salary%TYPE;
 BEGIN
-    -- Get employee 101's name and salary
-    SELECT employee_name, monthly_salary
+     SELECT employee_name, monthly_salary
     INTO v_employee_name, v_salary
     FROM employees
     WHERE employee_id = 101;
 
-    -- Review the employee's salary
     IF v_salary < 400000 THEN
         GOTO low_salary;
     ELSIF v_salary <= 700000 THEN
