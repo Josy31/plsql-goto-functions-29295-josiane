@@ -1,7 +1,3 @@
--- Individual Assignment III
--- Database Development with PL/SQL
--- File: 00_setup/create_tables.sql
-
 CREATE TABLE departments (
     department_id NUMBER PRIMARY KEY,
     department_name VARCHAR2(50) NOT NULL
