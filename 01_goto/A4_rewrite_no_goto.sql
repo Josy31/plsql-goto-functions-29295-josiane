@@ -4,7 +4,6 @@ DECLARE
     v_employee_name employees.employee_name%TYPE;
     v_salary        employees.monthly_salary%TYPE;
 BEGIN
-    -- Retrieve employee information
     SELECT employee_name, monthly_salary
     INTO v_employee_name, v_salary
     FROM employees
@@ -13,7 +12,6 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Employee: ' || v_employee_name);
     DBMS_OUTPUT.PUT_LINE('Salary: ' || v_salary);
 
-    -- Salary review without using GOTO
     IF v_salary < 400000 THEN
         DBMS_OUTPUT.PUT_LINE('Salary Review: Low salary');
 
