@@ -1,4 +1,4 @@
-C2 — Reflection
+Reflection
 PL/SQL GOTO Statements and Functions
 
 This assignment helped me understand how GOTO statements and stored
