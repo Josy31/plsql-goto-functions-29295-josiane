@@ -1,5 +1,3 @@
-Individual Assignment III
-Database Development with PL/SQL
 File: 00_setup/create_tables.sql
 
 CREATE TABLE departments (
